@@ -1,4 +1,4 @@
 import {createServer} from 'node:http';import {readFile} from 'node:fs/promises';
-const allowed=new Set(['index.html','style.css','app.js','engine.js','worlds.js','curriculum.json']);
+const allowed=new Set(['index.html','style.css','app.js','engine.js','worlds.js','story.js','curriculum.json']);
 const mime={html:'text/html; charset=utf-8',css:'text/css',js:'text/javascript',json:'application/json',svg:'image/svg+xml',png:'image/png',webp:'image/webp'};
 createServer(async(req,res)=>{try{const path=decodeURIComponent(new URL(req.url,'http://localhost').pathname).slice(1)||'index.html';if(!allowed.has(path)&&!/^assets\/[a-z0-9-]+\.(png|svg|webp)$/.test(path)){res.writeHead(404).end();return;}const data=await readFile(new URL(path,import.meta.url));res.writeHead(200,{'Content-Type':mime[path.split('.').at(-1)]||'application/octet-stream','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}).end(data);}catch{res.writeHead(404).end('Not found');}}).listen(8796,'127.0.0.1',()=>console.log('http://127.0.0.1:8796'));
