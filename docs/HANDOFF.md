@@ -6,6 +6,8 @@
 
 產出：curriculum.json、curriculum-notes.md由covey-teacher-perspective備課代理負責，其餘由根代理完成。代理已結束，不跨里程碑長駐。
 
-下一步：使用者審閱可操作本機首版 http://127.0.0.1:8796 後，若授權部署，再確認Cloudflare身分、執行wrangler deploy、production讀回。尚未公開部署、尚無Google登入。不得沿用其他字旅網站的上線/同步完成聲明。
+下一步：使用者審閱可操作本機首版 http://127.0.0.1:8796 後，若授權部署，再確認Cloudflare身分、執行wrangler deploy、production讀回。2026-10-05 已授權並部署，正式站 https://habits-odyssey.hk6429.workers.dev/；尚無Google登入。不得沿用其他字旅網站的上線/同步完成聲明。
 
 延伸：若要求雲端登入，需新站origin授權及帳號隔離/衝突合併測試。若要求每小關獨立情境圖，現有為每習慣一圖、共8圖，需另生成80圖。
+
+部署完成：d59d8ccf-8e69-4696-a090-080093fcfe9b。10個公開資產200且SHA-256相符，3個內部路徑404。正式站首頁與第一關載入正常；詳見production-readback.json。

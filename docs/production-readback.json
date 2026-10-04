@@ -1,0 +1,101 @@
+{
+  "url": "https://habits-odyssey.hk6429.workers.dev",
+  "version": "d59d8ccf-8e69-4696-a090-080093fcfe9b",
+  "checkedAt": "2026-10-04T22:30:50.376Z",
+  "results": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "type": "text/html",
+      "nosniff": "nosniff",
+      "sha256": "375958877b2d2f17139d61e2d86a07c047a0489e734519255c35edd945c4c13d",
+      "matches": true
+    },
+    {
+      "file": "style.css",
+      "status": 200,
+      "type": "text/css",
+      "nosniff": "nosniff",
+      "sha256": "ed0dd84781dfd03d629aedbbe708c9be7c69a624436ec7e8c3d1d713504311c7",
+      "matches": true
+    },
+    {
+      "file": "app.js",
+      "status": 200,
+      "type": "text/javascript",
+      "nosniff": "nosniff",
+      "sha256": "b7e59bd9514fe80f53aac79a6d67ced290b3e80551cbe3031beb36ec3a61fac7",
+      "matches": true
+    },
+    {
+      "file": "engine.js",
+      "status": 200,
+      "type": "text/javascript",
+      "nosniff": "nosniff",
+      "sha256": "e971d11786beeb3704f5d7877d7071440269b988fae81c040645cdd0bf56b4b0",
+      "matches": true
+    },
+    {
+      "file": "worlds.js",
+      "status": 200,
+      "type": "text/javascript",
+      "nosniff": "nosniff",
+      "sha256": "a3e06c8e7c9d39d2aa55c437fe028a14d1f318518fb3b478f6f67d71f73456fa",
+      "matches": true
+    },
+    {
+      "file": "curriculum.json",
+      "status": 200,
+      "type": "application/json",
+      "nosniff": "nosniff",
+      "sha256": "580b5a128d1754badb88325361194b75a3629b23a17494a800c9949fdcf9aaaf",
+      "matches": true
+    },
+    {
+      "file": "assets/compass.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "nosniff": "nosniff",
+      "sha256": "c7b4e4d0d442a5df1f10dd8833992f2d618fb32b07f20bb40d007c394bd02d6d",
+      "matches": true
+    },
+    {
+      "file": "assets/journey.png",
+      "status": 200,
+      "type": "image/png",
+      "nosniff": "nosniff",
+      "sha256": "4c543819a6744f3b98cbefde7098132d1e2a646261795aef6e7d970bb6863f08",
+      "matches": true
+    },
+    {
+      "file": "assets/mentors-balanced.png",
+      "status": 200,
+      "type": "image/png",
+      "nosniff": "nosniff",
+      "sha256": "94069a98db14583ad82d48a1fe785bc94d47068784aaad6108e82af38d7c223c",
+      "matches": true
+    },
+    {
+      "file": "assets/worlds.png",
+      "status": 200,
+      "type": "image/png",
+      "nosniff": "nosniff",
+      "sha256": "1972eb03715ac28e418e25564e594b75202ddf5af441daaa206f612ee6f8687c",
+      "matches": true
+    }
+  ],
+  "excluded": [
+    {
+      "path": "/.git/config",
+      "status": 404
+    },
+    {
+      "path": "/README.md",
+      "status": 404
+    },
+    {
+      "path": "/curriculum-notes.md",
+      "status": 404
+    }
+  ]
+}
