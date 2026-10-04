@@ -45,3 +45,14 @@ HTTP 讀回：index.html、curriculum.json、三張 PNG 均 200、MIME 正確且
 ## 人物與故事修正（2026-10-05）
 
 43d0215：首頁首屏加入3位迎接角色、8位同行者圖列、3種身分序章、80幕連續劇情。8項測試通過；390px手機首屏三位人物位於y185–361px、無水平溢出。實測序章→第一幕→方向鍵正解→故事回應；進度資料格式未改。正式版本1339a77c-8689-49eb-9eec-943efdf34735，5個本次相關資產HTTP200且bytes相符，正式首頁已讀回人物與新敘事。
+
+## 2026-10-05 臺灣小老師替換
+- 八位人物：徐生明、陳進、顏水龍、郭雪湖、林良、劉鳳學、齊柏林、李泰祥；原創 Q 版透明圖集 `assets/mentors-taiwan.png`。
+- 首頁、序章、80 幕人物稱呼、備課室生平與來源同步替換。未更動 engine.js、進度 key 或 curriculum.json。
+- `npm test`：8/8；`npm run build` 通過；runtime 舊人物姓名掃描無殘留。
+- 手機 CSS viewport 390：無橫向溢出，首頁三人物可見；桌面正式首頁三人物可見，八人名冊正確。
+- 既有本機畫面進度國中 3/80、成人 1/80 仍在；正式畫面國中 1/80 仍在。本次未做雲端同步變更。
+- Cloudflare version：20f34922-e336-452b-b560-5f52fb3ecf68。
+- `docs/taiwan-mentors-readback.json`：8/8 HTTP 200 且 bytes 與 dist 一致。
+- 正式首頁截圖：/Users/naichengchen/Downloads/心之羅盤臺灣人物.png。
+- 人物為藝術化詮釋；習慣配對及對話為創作，非本人引言或課程背書。
